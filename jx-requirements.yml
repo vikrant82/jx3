@@ -17,6 +17,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: minikube
+  registry: 10.99.225.73
 environments:
 - ingress:
     domain: ""
@@ -27,6 +28,8 @@ environments:
       enabled: false
       production: false
   key: dev
+  owner: vikrant82
+  repository: jx3
 - ingress:
     domain: ""
     externalDNS: false
